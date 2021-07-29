@@ -1,0 +1,25 @@
+
+.img-thumbnai3, .img-thumbnai2, .img-thumbnai1, .img-thumbnai4{
+  width:  450px;
+  height: 450px;
+  margin: 30px;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+h1{
+  align-items: center;
+}
+
+#title{
+  text-align: center;
+  padding-left: 400px;
+  margin: 20px;
+  /* 204 235 52 */
+
+}
+@media (max-width: 1000px) {
+  .img-thumbnai3, .img-thumbnai2, .img-thumbnai1, .img-thumbnai4 {
+    
+    flex: 33%;
+  }
+}
